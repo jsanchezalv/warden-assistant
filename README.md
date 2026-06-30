@@ -15,7 +15,7 @@ An AI coding assistant skill for building, validating, and optimizing health eco
 Works with Claude Code, OpenAI Codex, Cursor, Windsurf, Cline, GitHub Copilot, and more:
 
 ```bash
-npx skills@latest add jsanchezalv/WARDEN-assistant_skill
+npx skills@latest add jsanchezalv/warden-assistant
 ```
 
 The installer auto-detects which agents you have and configures each one.
