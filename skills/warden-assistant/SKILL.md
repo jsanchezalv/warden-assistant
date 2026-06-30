@@ -131,7 +131,7 @@ Confirm ONLY items that materially affect model structure. Things that can be ch
 
 Map inputs to WARDEN constructs:
 - Parameters with base values only -> assign directly in `common_all_inputs`
-- Parameters with PSA distributions -> `input_block()` or `pick_val_v()` + `pick_psa()`
+- Parameters with PSA distributions or that could have scenarios/PSA distributions -> `input_block()` or `pick_val_v()` + `pick_psa()`
 - Patient-specific draws (e.g. natural death, sex) -> `common_pt_inputs`
 - Arm-specific values (flags, starting utility/cost) -> `unique_pt_inputs`
 - Events -> `add_tte()` with `draw_tte()` for parametric TTEs
