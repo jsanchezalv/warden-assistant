@@ -41,7 +41,7 @@ To use this skill across multiple projects and receive updates automatically:
 
 ```bash
 # 1. Clone once to a permanent location
-git clone https://github.com/jsanchezalv/WARDEN-assistant_skill.git ~/skills/warden-assistant
+git clone https://github.com/jsanchezalv/warden-assistant.git ~/skills/warden-assistant
 ```
 
 Then symlink into each project:
